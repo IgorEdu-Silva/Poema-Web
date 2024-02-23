@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+
+    background-color: #000000;
+    color: white;
+    font-family: 'Charis SIL', serif;
+}
+header {
+    background-color: #808080;
+    color: white;
+
+    font-size: x-large;
+
+    width: 100%;
+
+    padding: 4% 0;
+    margin: auto;
+    height: 14%;
+}
+header > h1 {
+    text-align: center;
+    
+    padding: 25px 0;
+    margin: auto;
+}
+/* ------------------------------------------- */
+main {
+    margin: auto;
+
+    font-size: 30px;
+    line-height: 3em;
+}
+main > .normal {
+    color: white;
+
+    width: 100%;
+}
+main > .normal > p {
+    margin: 5% 10%;
+    padding: 5%;
+}
+main > .imagem {
+    background-image: url(imagens/pexels-sagui-andrea-618833.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+main > .imagem > p {
+    margin: 5% 10%;
+    padding: 5%;
+}
+main > section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+main > section > p {
+    background-color: #00000087;
+
+    max-width: 300px;
+}
+/* --------------------------------------------- */
+footer {
+    background-color: #808080;
+
+    padding: 2% 0;
+    width: 100%;
+}
+footer > p > a{
+    padding: 0 0 0 10%;
+    margin: auto;
+
+    text-decoration: none;
+
+    color: white;
+}
+footer > p > a:hover {
+    text-decoration: underline;
+
+    color: #0000ff;
+}
